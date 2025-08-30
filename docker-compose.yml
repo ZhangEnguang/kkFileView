@@ -1,0 +1,9 @@
+services:
+  backend:
+    container_name: kkFileView
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8012:8012"
+    restart: always
