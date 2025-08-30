@@ -7,5 +7,5 @@ services:
     ports:
       - "8012:8012"
     environment:
-      KK_BASE_URL: https://file.xmmzeg.top
+      KK_BASE_URL: https://kkfileview.xmmzeg.top
     restart: always
